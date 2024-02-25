@@ -24,10 +24,20 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+  font-family: "vazir" !important;
+}
+
+.directionRtl {
+  direction: rtl;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+@font-face {
+  font-family: Vazir;
+  src: url("../public/fonts/vazir/Vazir-Light.ttf") format("truetype");
 }
