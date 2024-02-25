@@ -1,5 +1,8 @@
+"use client";
 import React from "react";
-import Breadcrumb from "../components/navbar/breadcrumb/breadcrumb";
+import Breadcrumb from "../components/breadcrumb/breadcrumb";
+import Swiper from "../components/swiper/swiper";
+import Divider from "../components/divider/divider";
 
 type Props = {};
 
@@ -772,6 +775,8 @@ const Page = (props: Props) => {
           </div>
         </div>
       </div>
+      <Divider title="محصولات پرفروش" />
+      <Swiper />
     </>
   );
 };
