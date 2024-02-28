@@ -1,12 +1,30 @@
+"use client";
 import Link from "next/link";
 import React from "react";
+import ShoppingCartRoundedIcon from "@mui/icons-material/ShoppingCartRounded";
+import ShopingCart from "../shopingCart/shopingCart";
+import { Button, Drawer, Badge } from "@mui/material";
 
 type Props = {};
 
 const Navbar = (props: Props) => {
+  const [open, setOpen] = React.useState(false);
+
+  const toggleDrawer = (newOpen: boolean) => () => {
+    setOpen(newOpen);
+  };
+
   return (
     <nav className="directionRtl bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <Button onClick={toggleDrawer(true)}>
+          <Badge badgeContent={2} color="primary">
+            <ShoppingCartRoundedIcon color="action" fontSize="large" />
+          </Badge>
+        </Button>
+        <Drawer open={open} onClose={toggleDrawer(false)} anchor="right">
+          <ShopingCart />
+        </Drawer>
         <a
           href="https://flowbite.com/"
           className="flex items-center space-x-3 rtl:space-x-reverse"
