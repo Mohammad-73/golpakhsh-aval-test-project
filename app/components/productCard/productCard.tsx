@@ -55,42 +55,18 @@ const ProductCard = ({ product }: Props) => {
         ></div>
         <img
           className="relative w-40"
-          src={product.images}
-          alt={product.title}
+          src="https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png"
+          alt=""
         />
       </div>
-      <div className="relative px-6 pb-6 mt-6">
-        {/* <span className="block opacity-75 -mb-1">Indoor</span> */}
-        <div className="flex flex-col justify-between items-end">
-          <span className="block font-semibold text-xl text-white">
-            {product.title}
-          </span>
+      <div className="relative text-white px-6 pb-6 mt-6">
+        <span className="block opacity-75 -mb-1">Indoor</span>
+        <div className="flex justify-between">
+          <span className="block font-semibold text-xl">{product.title}</span>
           <span
-            className={`w-full block bg-white rounded-full text-${cardColorList[randomNum]} text-xs font-bold pl-2 mt-2 leading-none flex items-center justify-between`}
+            className={`block bg-white rounded-full text-${cardColorList[randomNum]} text-xs font-bold px-3 py-2 leading-none`}
           >
-            {toFarsiNumber(product["manufacturer-price"])}
-            <span className="bg-neutral-300  py-2 px-2 rounded-full">
-              قیمت تولید کننده (ريال)
-            </span>
-          </span>
-          <span
-            className={`w-full block bg-white rounded-full text-${cardColorList[randomNum]} text-xs font-bold pl-2 mt-2 leading-none flex items-center justify-between`}
-          >
-            {toFarsiNumber(
-              Math.abs(
-                (product["consumer-price"] / 100) * product.discountPercentage -
-                  product["consumer-price"]
-              )
-            )}
-            <span className="bg-neutral-300  py-2 px-2 rounded-full">
-              قیمت مصرف کننده (ريال)
-            </span>
-          </span>
-          <span className="w-full flex justify-around mt-2 text-white">
-            <span className="line-through">
-              {toFarsiNumber(product["consumer-price"])}
-            </span>
-            <span>{toFarsiNumber(product.discountPercentage)}%</span>
+            ${product.price}
           </span>
         </div>
       </div>
