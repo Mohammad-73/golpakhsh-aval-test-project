@@ -7,8 +7,8 @@ type Props = {
 
 const Divider = ({ title }: Props) => {
   return (
-    <div className={`${classes.root} py-8 max-w-7xl mx-auto`}>
-      <h1>{title}</h1>
+    <div className={`${classes.root} pt-8 pb-2 max-w-7xl mx-auto`}>
+      <h1 className="text-[#289672]">{title}</h1>
     </div>
   );
 };
