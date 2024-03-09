@@ -1,24 +1,17 @@
 import toFarsiNumber from "@/app/utils/toFarsiNumber";
+import Image from "next/image";
 import React from "react";
 
 type Props = {
   product: any;
+  textColor: string;
+  bgColor: string;
 };
 
-const ProductCard = ({ product }: Props) => {
-  const cardColorList = [
-    "orange-500",
-    "teal-500",
-    "purple-500",
-    "emerald-500",
-    "fuchsia-500",
-  ];
-
-  const randomNum = Math.floor(Math.random() * 5);
-
+const ProductCard = ({ product, textColor, bgColor }: Props) => {
   return (
     <div
-      className={`flex-shrink-0 relative overflow-hidden bg-${cardColorList[randomNum]} rounded-lg max-w-xs shadow-lg`}
+      className={`flex-shrink-0 relative overflow-hidden ${bgColor} rounded-lg max-w-xs shadow-lg`}
     >
       <svg
         className="absolute bottom-0 left-0 mb-8"
@@ -55,8 +48,10 @@ const ProductCard = ({ product }: Props) => {
         ></div>
         <img
           className="relative w-40"
-          src="https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png"
+          src={product.images}
           alt=""
+          // width={100}
+          // height={100}
         />
       </div>
       <div className="relative text-white px-6 pb-6 mt-6">
@@ -64,7 +59,7 @@ const ProductCard = ({ product }: Props) => {
         <div className="flex justify-between">
           <span className="block font-semibold text-xl">{product.title}</span>
           <span
-            className={`block bg-white rounded-full text-${cardColorList[randomNum]} text-xs font-bold px-3 py-2 leading-none`}
+            className={`block bg-white rounded-full ${textColor} text-xs font-bold px-3 py-2 leading-none`}
           >
             ${product.price}
           </span>

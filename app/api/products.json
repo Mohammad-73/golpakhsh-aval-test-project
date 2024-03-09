@@ -7,6 +7,8 @@
       "discountPercentage": 12,
       "rating": 4.69,
       "stock": 94,
+      "bgColor": "bg-orange-500",
+      "textColor": "text-orange-500",
       "category": "Flowers and Plants",
       "images": "https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png"
     },
@@ -17,6 +19,8 @@
       "discountPercentage": 8,
       "rating": 4.45,
       "stock": 12,
+      "bgColor": "bg-teal-500",
+      "textColor": "text-teal-500",
       "category": "Flowers and Plants",
       "images": "https://user-images.githubusercontent.com/2805249/64069998-305de300-cc9a-11e9-8ae7-5a0fe00299f2.png"
     },
@@ -27,6 +31,8 @@
       "discountPercentage": 6,
       "rating": 4.91,
       "stock": 34,
+      "bgColor": "bg-purple-500",
+      "textColor": "text-purple-500",
       "category": "Flowers and Plants",
       "images": "https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png"
     },
@@ -37,6 +43,8 @@
       "discountPercentage": 12,
       "rating": 4.69,
       "stock": 94,
+      "bgColor": "bg-orange-500",
+      "textColor": "text-orange-500",
       "category": "Flowers and Plants",
       "images": "https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png"
     },
@@ -47,6 +55,8 @@
       "discountPercentage": 8,
       "rating": 4.45,
       "stock": 12,
+      "bgColor": "bg-teal-500",
+      "textColor": "text-teal-500",
       "category": "Flowers and Plants",
       "images": "https://user-images.githubusercontent.com/2805249/64069998-305de300-cc9a-11e9-8ae7-5a0fe00299f2.png"
     },
@@ -57,6 +67,8 @@
       "discountPercentage": 6,
       "rating": 4.91,
       "stock": 34,
+      "bgColor": "bg-purple-500",
+      "textColor": "text-purple-500",
       "category": "Flowers and Plants",
       "images": "https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png"
     },
@@ -67,6 +79,8 @@
       "discountPercentage": 12,
       "rating": 4.69,
       "stock": 94,
+      "bgColor": "bg-orange-500",
+      "textColor": "text-orange-500",
       "category": "Flowers and Plants",
       "images": "https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png"
     },
@@ -77,6 +91,8 @@
       "discountPercentage": 8,
       "rating": 4.45,
       "stock": 12,
+      "bgColor": "bg-teal-500",
+      "textColor": "text-teal-500",
       "category": "Flowers and Plants",
       "images": "https://user-images.githubusercontent.com/2805249/64069998-305de300-cc9a-11e9-8ae7-5a0fe00299f2.png"
     },
@@ -87,6 +103,8 @@
       "discountPercentage": 6,
       "rating": 4.91,
       "stock": 34,
+      "bgColor": "bg-purple-500",
+      "textColor": "text-purple-500",
       "category": "Flowers and Plants",
       "images": "https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png"
     },
@@ -97,6 +115,8 @@
       "discountPercentage": 12,
       "rating": 4.69,
       "stock": 94,
+      "bgColor": "bg-orange-500",
+      "textColor": "text-orange-500",
       "category": "Flowers and Plants",
       "images": "https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png"
     },
@@ -107,6 +127,8 @@
       "discountPercentage": 8,
       "rating": 4.45,
       "stock": 12,
+      "bgColor": "bg-teal-500",
+      "textColor": "text-teal-500",
       "category": "Flowers and Plants",
       "images": "https://user-images.githubusercontent.com/2805249/64069998-305de300-cc9a-11e9-8ae7-5a0fe00299f2.png"
     },
@@ -117,6 +139,8 @@
       "discountPercentage": 6,
       "rating": 4.91,
       "stock": 34,
+      "bgColor": "bg-purple-500",
+      "textColor": "text-purple-500",
       "category": "Flowers and Plants",
       "images": "https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png"
     },
@@ -127,6 +151,8 @@
       "discountPercentage": 12,
       "rating": 4.69,
       "stock": 94,
+      "bgColor": "bg-orange-500",
+      "textColor": "text-orange-500",
       "category": "Flowers and Plants",
       "images": "https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png"
     },
@@ -137,6 +163,8 @@
       "discountPercentage": 8,
       "rating": 4.45,
       "stock": 12,
+      "bgColor": "bg-teal-500",
+      "textColor": "text-teal-500",
       "category": "Flowers and Plants",
       "images": "https://user-images.githubusercontent.com/2805249/64069998-305de300-cc9a-11e9-8ae7-5a0fe00299f2.png"
     },
@@ -147,6 +175,8 @@
       "discountPercentage": 6,
       "rating": 4.91,
       "stock": 34,
+      "bgColor": "bg-purple-500",
+      "textColor": "text-purple-500",
       "category": "Flowers and Plants",
       "images": "https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png"
     }
