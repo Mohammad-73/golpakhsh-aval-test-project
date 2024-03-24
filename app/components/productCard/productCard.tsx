@@ -9,6 +9,10 @@ type Props = {
 };
 
 const ProductCard = ({ product, textColor, bgColor }: Props) => {
+  // const ImageLoader = (src: any) => {
+  //   return `${src}`;
+  // };
+
   return (
     <div
       className={`flex-shrink-0 relative overflow-hidden ${bgColor} rounded-lg max-w-xs shadow-lg`}
@@ -39,22 +43,23 @@ const ProductCard = ({ product, textColor, bgColor }: Props) => {
       </svg>
       <div className="relative pt-10 px-10 flex items-center justify-center">
         <div
-          className="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3"
+          className="block absolute w-20 h-20 md:w-48 md:h-48 bottom-0 left-0 -mb-24 ml-3"
           style={{
             background: "radial-gradient(black, transparent 60%)",
             transform: "rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1)",
             opacity: "0.2",
           }}
         ></div>
-        <img
-          className="relative w-40"
+        <Image
+          // loader={ImageLoader}
+          className="relative w-24 md:w-40"
           src={product.images}
           alt=""
-          // width={100}
-          // height={100}
+          width={100}
+          height={100}
         />
       </div>
-      <div className="relative text-white px-6 pb-6 mt-6">
+      <div className="relative text-white px-3 mx:px-6 pb-3 mx:pb-6 mt-3 mx:mt-6">
         <span className="block opacity-75 -mb-1">Indoor</span>
         <div className="flex justify-between">
           <span className="block font-semibold text-xl">{product.title}</span>

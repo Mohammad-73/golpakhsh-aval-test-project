@@ -6,7 +6,7 @@ type Props = {};
 
 const Breadcrumb = (props: Props) => {
   return (
-    <nav className="flex justify-between" aria-label="Breadcrumb">
+    <nav className="hidden md:flex md:justify-between" aria-label="Breadcrumb">
       <ol className="inline-flex items-center mb-3 sm:mb-0">
         <li>
           <div className="flex items-center">

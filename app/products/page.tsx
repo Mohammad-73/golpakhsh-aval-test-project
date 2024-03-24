@@ -11,6 +11,8 @@ import AutoAwesomeMosaicIcon from "@mui/icons-material/AutoAwesomeMosaic";
 import SortIcon from "@mui/icons-material/Sort";
 import { InputAdornment, TextField } from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
+import mobileHero from "../../public/images/mobileHero.png";
+import Image from "next/image";
 
 type Props = {};
 
@@ -23,11 +25,20 @@ const Page = (props: Props) => {
   }, []);
 
   return (
-    <Container classNames="max-w-7xl mx-auto 2xl:max-w-full pt-24">
-      <div className="flex justify-between items-center pb-4 max-w-7xl mx-auto">
+    <Container classNames="max-w-7xl mx-auto 2xl:max-w-full pt-4 md:pt-24">
+      <Image
+        className="block md:hidden w-full"
+        src={mobileHero}
+        alt="Welcome to Happy Plant"
+        width={50}
+        height={50}
+        unoptimized
+      />
+      <div className="flex justify-evenly md:justify-between items-center pb-4 max-w-7xl mx-auto">
         <Breadcrumb />
-        <span className="flex items-center gap-2">
+        <span className="absolute top-80 md:static flex items-center gap-2 w-full md:w-auto px-4">
           <TextField
+            className="w-full md:w-auto"
             size="small"
             id="outlined-search"
             label="Search..."
